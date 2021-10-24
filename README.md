@@ -1,4 +1,4 @@
-# execs-chocolatye-package
+# execs-chocolatey-package
 
 * A package source : https://github.com/daeho-ro/execs
 * A package repository : https://community.chocolatey.org/packages/execs
