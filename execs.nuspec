@@ -3,7 +3,6 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 
   <metadata>
-
     <id>execs</id>
     <version>0.1.4</version>
 
@@ -17,7 +16,6 @@
     <tags>execs</tags>
     <summary>execs is a program that helps you to access the ECS task interactively by using the ssm session-manager-plugin.</summary>
     <description>It uses the ECS execute command API with the command /bin/sh. It also highly refer the similar and pre-existing program ecsgo but uses the AWS SDK for GO v2. Since the motivation for developing the program is personal purpose to study about Golang, the program could be unstable.</description>
-
   </metadata>
 
   <files>
