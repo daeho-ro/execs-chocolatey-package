@@ -2,8 +2,8 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $fileFullPath = Join-Path $toolsDir "$packageName.exe"
 
-$url64      = 'https://github.com/daeho-ro/execs/releases/download/v0.1.4/execs_0.1.4_windows_amd64.exe'
-$checksum64 = '267d368963031de0ba262a7213ee336c003d4663d608ebe4bd1e9e683708d1f9'
+$url64      = 'https://github.com/daeho-ro/execs/releases/download/v0.1.6/execs_0.1.6_windows_amd64.exe'
+$checksum64 = '9b6401b720803444afea75b9f07f8ad9e365fc54766a5c5d4c5fe4a0826140a9'
 $checksumType64 = 'sha256'
 
 $packageArgs = @{
