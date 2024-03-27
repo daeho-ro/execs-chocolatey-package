@@ -1,0 +1,22 @@
+{
+    "version": "0.1.7",
+    "descriotion": "Execute shell command on the ECS Fargate",
+    "homepage": "https://github.com/daeho-ro/execs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/daeho-ro/execs/releases/download/v0.1.7/execs_0.1.7_windows_amd64.exe",
+            "hash": "d46896c6a4696ecc37fb084d9229a169ad84192bdb1c554cc7ba781cb08ba784"
+        }
+    },
+    "pre_install": "Get-Item \"$dir\\execs*.exe\" | Rename-Item -NewName 'execs.exe'",
+    "bin": "execs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/daeho-ro/execs/releases/download/v$version/execs_$version_windows_amd64.exe"
+            }
+        }
+    }
+}
